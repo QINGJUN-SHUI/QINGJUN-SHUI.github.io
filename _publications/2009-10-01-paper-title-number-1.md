@@ -16,4 +16,4 @@ image: 'path/to/your/image.png'
 
 **Image:**
 
-![Evaporable Fullerene Indanones](path/to/your/image.png)
+![Evaporable Fullerene Indanones](FIDO.png)
