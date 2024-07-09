@@ -6,7 +6,7 @@ excerpt: 'Qing-Jun Shui, Shiqi Shan, Yong-Chang Zhai, Shinobu Aoyagi, Seiichiro 
 date: 2023-12-08
 venue: 'Journal of the American Chemical Society'
 paperurl: 'https://doi.org/10.1021/jacs.3c07192'
-image: 'FIDO.png'
+image: '/images/FIDO.png'
 ---
 
 **DOI:**
@@ -15,4 +15,4 @@ image: 'FIDO.png'
 
 **Image:**
 
-![Evaporable Fullerene Indanones](FIDO.png)
+![Evaporable Fullerene Indanones](/images/FIDO.png)
