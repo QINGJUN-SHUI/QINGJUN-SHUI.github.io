@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me and My story"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,3 +21,11 @@ Later, I was admitted to [Zhejiang University](https://www.zju.edu.cn/) and chos
 Eventually, I discovered my interest in photoelectric functional molecules and their applications in semiconductors. In my junior year, I came across the unique research of Prof. [Seiichiro IZAWA](https://scholar.google.co.jp/citations?hl=ja&user=nB983kcAAAAJ&view_op=list_works&sortby=pubdate) on the mechanisms of organic solar cells, which greatly intrigued me. I reached out to him and secured a position in his research group for my Ph.D. studies after completing my undergraduate degree.
 
 In my senior year, when it was time to choose a lab for my graduation thesis, I opted for a topic related to functional molecules, although it was not directly related to organic solar cells. I believed that learning about interdisciplinary subjects and acquiring diverse skills would benefit my future. I was fortunate to meet Prof. [Ning Huang](http://tac.polymer.zju.edu.cn/osl/redir.php?catalog_id=282&object_id=18199), a wise, steady, and hardworking principal investigator. Under his guidance, I started working on projects related to covalent organic frameworks (COFs) and began learning organic synthesis, particularly the synthesis of porphyrins. This period marked the most enjoyable, fulfilling, and meaningful time of my undergraduate years.
+
+Unfortunately, I encountered the COVID-19 pandemic, which delayed my journey to Japan for a year and a half. After this period of waiting at home, I finally arrived in Japan to start my master and doctoral studies. From April 2022 to March 2023, Prof. Izawa entrusted me to conduct research under the guidance of Prof. Matsuo Yutaka and Prof. Lin Hao-sheng at Nagoya University, focusing on fullerene synthesis and perovskite solar cells. During this year, Prof. Lin provided me with patient guidance. His enthusiasm, wisdom, and optimism deeply influenced me and helped me through the toughest times. Ultimately, we published our research findings in JACS(https://pubs.acs.org/doi/10.1021/jacs.3c07192). I am deeply grateful for everything he taught me.
+
+
+
+
+
+
