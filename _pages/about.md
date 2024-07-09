@@ -1,5 +1,14 @@
 ---
 permalink: /
+title: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+I am currently a Ph.D. student at Tokyo Institute of Technology, where my supervisor Prof. [Seiichiro IZAWA](https://scholar.google.co.jp/citations?hl=ja&user=nB983kcAAAAJ&view_op=list_works&sortby=pubdate) and I are focusing on research related to triplet-triplet annihilation upconversion OLEDs.
+---
+permalink: /
 title: "My story"
 author_profile: true
 redirect_from: 
