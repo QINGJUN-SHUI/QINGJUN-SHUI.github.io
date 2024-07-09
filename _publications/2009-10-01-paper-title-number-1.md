@@ -12,7 +12,3 @@ image: '/images/FIDO.png'
 **DOI:**
 
 [10.1021/jacs.3c07192](https://doi.org/10.1021/jacs.3c07192)
-
-**Image:**
-
-![Evaporable Fullerene Indanones](/images/FIDO.png)
