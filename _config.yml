@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "Tokyo-JP"
-title                    : "SHUI QING-JUN / Site Title"
+title                    : "SHUI QING-JUN"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "SHUI QING-JUN"
 description              : &description "personal description"
 url                      : https://qingjun-shui.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ author:
   avatar           : "me"
   name             : "SHUI QING-JUN"
   pronouns         : # example: "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "虽不能至，然心向往之。Though the bright future is difficult to attain, I remain full of hope and continue to strive towards it with determination"
   location         : "Tokyo-JP"
   employer         : "Tokyo Institute of Technology"
   uri              : # URL
