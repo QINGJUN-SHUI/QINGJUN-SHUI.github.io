@@ -8,6 +8,7 @@ venue: 'Journal of the American Chemical Society'
 paperurl: 'https://doi.org/10.1021/jacs.3c07192'
 image: '/images/FIDO.png'
 ---
+![Evaporable Fullerene Indanones](/images/FIDO.png)
 
 **DOI:**
 
