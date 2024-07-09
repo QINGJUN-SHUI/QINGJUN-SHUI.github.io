@@ -21,7 +21,7 @@ repository               : "QINGJUN-SHUI/QINGJUN-SHUI.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me"
+  avatar           : "me.png"
   name             : "SHUI QING-JUN"
   pronouns         : # example: "he/him"  
   bio              : "虽不能至，然心向往之。Though the bright future is difficult to attain, I remain full of hope and continue to strive towards it with determination"
