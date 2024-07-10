@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Tokyo Institute of Technology, 2023~2026 (expected)
-* M.S. in Nagoya University, 2021~2023
-* B.S. in Zhejiang University, 2016~2020
+* Ph.D in Tokyo Institute of Technology, 2023~2026 (expected) Supervised by Prof. [Izawa Seiichiro](https://scholar.google.com/citations?hl=ja&user=nB983kcAAAAJ&view_op=list_works&sortby=pubdate)
+* M.S. in Nagoya University, 2021~2023 Supervised by Prof. [Matsuo Yutaka](https://scholar.google.com/citations?user=wWzDi-kAAAAJ&hl=ja&oi=ao) and Prof. [Lin Hao-sheng](https://scholar.google.com/citations?hl=ja&user=fDzNQQsAAAAJ&view_op=list_works&sortby=pubdate)
+* B.S. in Zhejiang University, 2016~2020 Supervised by Prof. [Huang Ning](http://tac.polymer.zju.edu.cn/osl/redir.php?catalog_id=282&object_id=18199)
 * High School: Gansu Dingxi NO.1 Middle School
 
 Work experience
