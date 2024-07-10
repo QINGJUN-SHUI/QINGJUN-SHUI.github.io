@@ -29,7 +29,7 @@ Skills
 * Perovskite solar cell fabrication and related characterization technology
 * Gaussian 16 Calculation
 
-Award
+Awards
 ======
 * Monbukagakusho Honors Scholarship for Privately-Financed International Students (2022~2023)
 * Tokyo Tech. Tsubame special scholarship (2024~)
