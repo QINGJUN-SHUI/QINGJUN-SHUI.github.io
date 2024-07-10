@@ -10,6 +10,3 @@ paperurl: 'https://doi.org/10.1021/jacs.3c07192'
 
 ![FIDO](/images/FIDO.png)
 
-
-
-
