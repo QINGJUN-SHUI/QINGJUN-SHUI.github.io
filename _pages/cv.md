@@ -33,3 +33,21 @@ Awards
 ======
 * Monbukagakusho Honors Scholarship for Privately-Financed International Students (2022~2023)
 * Tokyo Tech. Tsubame special scholarship (2024~)
+
+Publications as first author
+======
+*1. **Shui, Q. J.**, Shan, S., Zhai, Y. C., Aoyagi, S., Izawa, S., Huda, M., Yu, C. Y., Zuo, L., Chen, H., Lin, H. S., & Matsuo, Y. (2023). "Evaporable fullerene indanones with controlled amorphous morphology as electron transport layers for inverted perovskite solar cells." *Journal of the American Chemical Society, 145*(50), 27307-27315.
+
+Publications with with collaborators
+======
+*1. Iwasaki, H., Fujimoto, K., Banno, K., Shui, Q., Majima, Y., Takahashi, M., & Izawa, S. (2024). "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic‐Semiconductor Interface." *Angewandte Chemie International Edition*, e202407368.
+
+2. Wang, S., Xu, X., Yue, Y., Yu, K., Shui, Q., Huang, N., & Chen, H. (2020). "Semiconductive covalent organic frameworks: structural design, synthesis, and application." *Small Structures, 1*(2), 2000021. 
+
+3. Zhang, B. W., Lin, H. S., Qiu, X. Y., Shui, Q. J., Zheng, Y. J., Almesfer, M., & Kauppinen, E. I. (2023). "Spiro-OMeTAD versus PTAA for single-walled carbon nanotubes electrode in perovskite solar cells." *Carbon, 205*, 321-327.
+
+4. Matsuo, Y., Ishikawa, S., Amada, H., Yokoyama, K., Shui, Q., Huda, M., & Ueoka, N. (2023). "Evaporable Indano [60] fullerene Ketone for the Electron Transport Layer of Inverted Perovskite Solar Cells." *Chemistry Letters, 52*(8), 685-687.
+
+5. Yokoyama, K., Lin, H. S., Shui, Q. J., Wang, X., Saito, N., & Matsuo, Y. (2023). "Cationic nitrogen-doped graphene coated silver as low-work function electrode for inverted perovskite solar cells." *Applied Physics Express, 16*(8), 081001.
+
+6.  Zhang, R., Meng, Q., Shui, Q., He, W., Chen, K., Liang, M., & Sun, Z. (2019). "Cyclic response of RC composite bridge columns with precast PP-ECC jackets in the region of plastic hinges." *Composite Structures, 221*, 110844.
