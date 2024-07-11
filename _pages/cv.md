@@ -36,11 +36,13 @@ Awards
 
 Publications as first author
 ======
-*1. **Shui, Q. J.**, Shan, S., Zhai, Y. C., Aoyagi, S., Izawa, S., Huda, M., Yu, C. Y., Zuo, L., Chen, H., Lin, H. S., & Matsuo, Y. (2023). "Evaporable fullerene indanones with controlled amorphous morphology as electron transport layers for inverted perovskite solar cells." *Journal of the American Chemical Society, 145*(50), 27307-27315.
+*
+1. **Shui, Q. J.**, Shan, S., Zhai, Y. C., Aoyagi, S., Izawa, S., Huda, M., Yu, C. Y., Zuo, L., Chen, H., Lin, H. S., & Matsuo, Y. (2023). "Evaporable fullerene indanones with controlled amorphous morphology as electron transport layers for inverted perovskite solar cells." *Journal of the American Chemical Society, 145*(50), 27307-27315.
 
 Publications with with collaborators
 ======
-*1. Iwasaki, H., Fujimoto, K., Banno, K., Shui, Q., Majima, Y., Takahashi, M., & Izawa, S. (2024). "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic‐Semiconductor Interface." *Angewandte Chemie International Edition*, e202407368.
+*
+1. Iwasaki, H., Fujimoto, K., Banno, K., Shui, Q., Majima, Y., Takahashi, M., & Izawa, S. (2024). "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic‐Semiconductor Interface." *Angewandte Chemie International Edition*, e202407368.
 
 2. Wang, S., Xu, X., Yue, Y., Yu, K., Shui, Q., Huang, N., & Chen, H. (2020). "Semiconductive covalent organic frameworks: structural design, synthesis, and application." *Small Structures, 1*(2), 2000021. 
 
