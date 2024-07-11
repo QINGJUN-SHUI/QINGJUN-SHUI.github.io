@@ -37,7 +37,7 @@ Awards
 Publications as first author
 ======
 *
-1. **Shui, Q. J.**, Shan, S., Zhai, Y. C., Aoyagi, S., Izawa, S., Huda, M., Yu, C. Y., Zuo, L., Chen, H., Lin, H. S., & Matsuo, Y. (2023). "Evaporable fullerene indanones with controlled amorphous morphology as electron transport layers for inverted perovskite solar cells." *Journal of the American Chemical Society, 145*(50), 27307-27315.
+1. **Shui, Q. J.**, Shan, S., Zhai, Y. C., Aoyagi, S., Izawa, S., Huda, M., Yu, C. Y., Zuo, L., Chen, H., Lin, H. S., & Matsuo, Y. (2023). "Evaporable fullerene indanones with controlled amorphous morphology as electron transport layers for inverted perovskite solar cells." ***Journal of the American Chemical Society**, 145*(50), 27307-27315.
 
 Publications with with collaborators
 ======
