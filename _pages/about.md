@@ -1,14 +1,17 @@
 ---
-permalink: /
+layout: single
+title: "Welcome to My Page"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+permalink: /
 ---
-# <div style="position: relative; text-align: center; color: white;">
-  <img src="/assets/images/background.jpg" alt="Profile Image" style="width: 100%; opacity: 0.5; filter: brightness(0.7);">
+
+<div style="position: relative; text-align: center; color: white;">
+  <img src="/assets/images/background.jpg" alt="Background Image" style="width: 100%; opacity: 0.5; filter: brightness(0.7);">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; font-weight: bold;">
     Welcome to My Page! 🌟
+  </div>
+</div>
+
 
 ## About me
 
