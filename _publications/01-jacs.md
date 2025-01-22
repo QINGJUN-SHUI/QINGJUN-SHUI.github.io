@@ -6,9 +6,7 @@ excerpt: '**Qing-Jun Shui**, Shiqi Shan, Yong-Chang Zhai, Shinobu Aoyagi, Seiich
 date: 2023-12-08
 venue: 'Journal of the American Chemical Society'
 paperurl: 'https://doi.org/10.1021/jacs.3c07192'
-![images_large_ja3c07192_0001](https://github.com/user-attachments/assets/2ae57fba-e184-4b5d-8d0f-2e0dae0eecdc)
-
----
 
 ![FIDO](/images/FIDO.png)
 
+---
