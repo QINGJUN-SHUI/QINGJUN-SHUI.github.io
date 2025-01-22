@@ -5,12 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-![FIDO](/images/FIDO.png)
-{% include base_path %}
+---
+title: "1,Evaporable Fullerene Indanones with Controlled Amorphous Morphology as Electron Transport Layers for Inverted Perovskite Solar Cells"
+collection: publications
+permalink: /publication/01-jacs.md
+excerpt: '**Qing-Jun Shui**, Shiqi Shan, Yong-Chang Zhai, Shinobu Aoyagi, Seiichiro Izawa, Miftakhul Huda, Chu-Yang Yu, Lijian Zuo, Hongzheng Chen *, Hao-Sheng Lin *, and Yutaka Matsuo *. J. Am. Chem. Soc. 2023, 145, 50, 27307–27315. DOI: [10.1021/jacs.3c07192](https://doi.org/10.1021/jacs.3c07192).'
+date: 2023-12-08
+venue: 'Journal of the American Chemical Society'
+paperurl: 'https://doi.org/10.1021/jacs.3c07192'
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+
+---
+![FIDO](/images/FIDO.png)
+
