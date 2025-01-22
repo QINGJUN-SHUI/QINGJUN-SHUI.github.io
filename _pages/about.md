@@ -6,6 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# Welcome to My Page! 🌟
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/profile.jpg" alt="Profile Picture" style="width: 200px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
 
 ## About me
 
