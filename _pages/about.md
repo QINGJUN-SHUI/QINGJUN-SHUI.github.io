@@ -28,6 +28,7 @@ I later officially joined Prof. Izawa’s lab as doctoral student. Now in my sec
 
 To be continued...
 
+![FIDO](/images/FIDO.png)
 
 
 
