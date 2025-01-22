@@ -58,7 +58,6 @@ Publications with with collaborators
 Talks and Presentations
 ======
 * Oral,"Narrow-Band Blue Emission in Organic Light-Emitting Diode at Extremely Low Driving Voltage
-![image](https://github.com/user-attachments/assets/faa49e9f-9eac-4a68-b266-f8894380d713)
 "The Fourteenth International Conference on the Science and Technology for Advanced Ceramics (STAC14) October 8-10, 2024
 Suzukake Hall, Suzukake-dai Campus, Institute of Science Tokyo
 * Presentations, "Narrow-Band Deep Blue Emission in Organic Light-Emitting Diode at Ultra-Low Driving Voltage"
