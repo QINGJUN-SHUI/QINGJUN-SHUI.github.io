@@ -5,11 +5,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Welcome to My Page! 🌟
-
-<div style="text-align: center; margin: 20px 0;">
-  <img src="/images/profile.jpg" alt="Profile Picture" style="width: 200px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-</div>
+# <div style="position: relative; text-align: center; color: white;">
+  <img src="/assets/images/background.jpg" alt="Profile Image" style="width: 100%; opacity: 0.5; filter: brightness(0.7);">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; font-weight: bold;">
+    Welcome to My Page! 🌟
 
 ## About me
 
