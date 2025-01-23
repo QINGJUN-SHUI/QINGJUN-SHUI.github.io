@@ -36,7 +36,7 @@ In my senior year, when it was time to choose a lab for my graduation thesis, I 
 
 During my last year of undergraduate study, unfortunately, human-kinds encountered the COVID-19 pandemic, which delayed my journey to Japan for a year and a half. After this period of waiting at home, I finally arrived in Japan to start my master and doctoral studies. From April 2022 to March 2023, Prof. Izawa entrusted me to conduct research under the guidance of Prof. Matsuo Yutaka and Prof. Lin Hao-sheng at Nagoya University, focusing on fullerene synthesis and perovskite solar cells. During this year, Prof. Lin provided me with patient guidance. His enthusiasm, wisdom, and optimism deeply influenced me and helped me through the toughest times. Ultimately, through the collaboration between Nagoya University (my master's alma mater), Zhejiang University (my bachelor's alma mater), and Tokyo Institute of Technology (my doctoral alma mater), we published our research findings in JACS titled [“Evaporable Fullerene Indanones with Controlled Amorphous Morphology as Electron Transport Layers for Inverted Perovskite Solar Cells“](https://pubs.acs.org/doi/10.1021/jacs.3c07192).
 
-I later officially joined Prof. Izawa’s lab as doctoral student. Now in my second year of doctoral studies, I am very happy and have been involved in many interesting projects. I am deeply grateful for my decision to reach out to Prof. Izawa five years ago. That incredibly correct decision has allowed me to appreciate my own value and interests, and has given me a clear direction in life.
+I later officially joined Prof. Izawa’s lab as doctoral student. Now in my second year of doctoral studies, I am very happy and have been involved in many interesting projects. 
 
 To be continued...
 
