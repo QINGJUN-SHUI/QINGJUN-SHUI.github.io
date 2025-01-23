@@ -5,15 +5,18 @@ author_profile: true
 permalink: /
 ---
 
-<div style="position: relative; text-align: center; color: white;">
+<div style="position: relative; text-align: center; color: white; padding: 50px;">
   <!-- 背景图片 -->
-  <img src="{{ '/images/research.png' | relative_url }}" alt="Background Image" 
-       style="width: 100%; height: 100vh; object-fit: cover; opacity: 0.5; filter: brightness(0.7);">
-  <!-- 居中文字 -->
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-30%, -30%); font-size: 3rem; font-weight: bold;">
-    Welcome to My Page! 🌟
+  <div style="display: inline-block; position: relative; width: 80%; max-width: 800px; margin: 0 auto; border-radius: 15px; overflow: hidden; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);">
+    <img src="{{ '/images/research.png' | relative_url }}" alt="Background Image" 
+         style="width: 100%; height: auto; object-fit: cover; opacity: 0.7;">
+    <!-- 居中文字 -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+      Welcome to My Page! 🌟
+    </div>
   </div>
 </div>
+
 
 
 ## About me
