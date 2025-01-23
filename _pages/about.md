@@ -7,7 +7,7 @@ permalink: /
 
 <div style="position: relative; text-align: center; color: white;">
   <!-- 背景图片 -->
-  <img src="{{ '/images/background.jpg' | relative_url }}" alt="Background Image" 
+  <img src="{{ '/images/research.jpg' | relative_url }}" alt="Background Image" 
        style="width: 100%; height: 100vh; object-fit: cover; opacity: 0.5; filter: brightness(0.7);">
   <!-- 居中文字 -->
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; font-weight: bold;">
