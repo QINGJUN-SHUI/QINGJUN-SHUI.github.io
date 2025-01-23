@@ -30,6 +30,7 @@ author_profile: true
   <div class="publication-entry">
     <h2>1. Evaporable Fullerene Indanones with Controlled Amorphous Morphology as Electron Transport Layers for Inverted Perovskite Solar Cells</h2>
     <p><strong>Authors:</strong> Qing-Jun Shui, Shiqi Shan, Yong-Chang Zhai, Shinobu Aoyagi, Seiichiro Izawa, Miftakhul Huda, Chu-Yang Yu, Lijian Zuo, Hongzheng Chen *, Hao-Sheng Lin *, and Yutaka Matsuo *</p>
+    <Qing-Jun Shui style="font-weight: bold; text-decoration: underline;">这里是加粗并加下划线的文字</span>
     <p><strong>Venue:</strong> Journal of the American Chemical Society, 2023, <strong>145</strong>, 50, 27307–27315</p>
     <p><strong>Date:</strong> December 8, 2023</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.1021/jacs.3c07192">10.1021/jacs.3c07192</a></p>
