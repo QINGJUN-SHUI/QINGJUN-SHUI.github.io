@@ -32,8 +32,9 @@ Skills
 Awards
 ======
 * Monbukagakusho Honors Scholarship for Privately-Financed International Students (2022~2023)
-* Tokyo Tech. Tsubame special scholarship (2024~)
-* Tokyo Tech. IIR Research Fellow (2023~)
+* Tokyo Tech. Tsubame special scholarship (2024~2025)
+* Tokyo Tech. IIR Research Fellow (2023~2026)
+*  “Science Tokyo SPRING” (Program for Development of Next-Generation Front-Runners with Comprehensive Knowledge and Humanity)
 
 Publications as main author
 ======
