@@ -44,7 +44,7 @@ Publications as main author
 
 Publications with collaborators
 ======
-*
+**Too lazy to unpdate. **
 *Iwasaki, H., Fujimoto, K., Banno, K., Shui, Q., Majima, Y., Takahashi, M., & Izawa, S. (2024). "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic‐Semiconductor Interface." *Angewandte Chemie International Edition*, e202407368.
 
 *Wang, S., Xu, X., Yue, Y., Yu, K., Shui, Q., Huang, N., & Chen, H. (2020). "Semiconductive covalent organic frameworks: structural design, synthesis, and application." *Small Structures, 1*(2), 2000021. 
