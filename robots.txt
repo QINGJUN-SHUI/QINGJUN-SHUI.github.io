@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qingjun-shui.github.io/sitemap.xml

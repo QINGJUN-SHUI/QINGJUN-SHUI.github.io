@@ -1,0 +1,146 @@
+# Publication list for the website.
+# Published outputs only. The page is text-only: title, authors, venue, year, and links.
+# author_role: "first" is used on research-category pages to show first-author papers before co-authored papers.
+
+- sort_key: 202616
+  year: 2026
+  title: "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic-Semiconductor Interface (vol 63, e202407368, 2024)"
+  authors_html: "Hiroto Iwasaki, K. Fujimoto, K. Banno, <strong>SHUI QING-JUN</strong>, Yutaka Majima, M. Takahashi, and Seiichiro Izawa"
+  venue: "Angewandte Chemie International Edition"
+  url: ""
+  doi: ""
+  categories: ["blue-uc-oleds"]
+  author_role: "coauthor"
+
+- sort_key: 202615
+  year: 2026
+  title: "Correction to ‘Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic-Semiconductor Interface’"
+  authors_html: "Hiroto Iwasaki, K. Fujimoto, K. Banno, <strong>SHUI QING-JUN</strong>, Yutaka Majima, M. Takahashi, and Seiichiro Izawa"
+  venue: "Angewandte Chemie International Edition, e4364552"
+  url: ""
+  doi: ""
+  categories: ["blue-uc-oleds"]
+  author_role: "coauthor"
+
+- sort_key: 202614
+  year: 2026
+  title: "Highly-Emissive Organic Photovoltaics Approaching Theoretical Limit Voltage and Enabling Multifunctional Energy-Harvesting Displays"
+  authors_html: "<strong>SHUI QING-JUN</strong>, Naoya Aizawa, Jinyao Xu, Atsuko Nihonyanagi, Daigo Miyajima, Ken-ichi Nakayama, Yutaka Majima, and Seiichiro Izawa"
+  venue: "Advanced Materials, 38 (30), e72995"
+  url: "https://doi.org/10.1002/adma.72995"
+  doi: "10.1002/adma.72995"
+  categories: ["multifunctional-organic-diodes"]
+  author_role: "first"
+  cv_selected: true
+
+- sort_key: 202513
+  year: 2025
+  title: "Narrow-Band Deep Blue Emission in Organic Light-Emitting Diode at 1.5 V"
+  authors_html: "<strong>SHUI QING-JUN</strong>, Hiroto Iwasaki, Daiki Nakahigashi, Yutaka Majima, and Seiichiro Izawa"
+  venue: "Advanced Optical Materials, 13 (31), e01576"
+  url: "https://doi.org/10.1002/adom.202501576"
+  doi: "10.1002/adom.202501576"
+  categories: ["blue-uc-oleds"]
+  author_role: "first"
+  cv_selected: true
+
+- sort_key: 202512
+  year: 2025
+  title: "Topological Control Over Porphyrin-Based Covalent Organic Frameworks for Elucidating Electron Transfer Characteristics"
+  authors_html: "K. Xu, Y. Feng, F. Wen, X. Xu, H. Wang, <strong>SHUI QING-JUN</strong>, and N. Huang"
+  venue: "Angewandte Chemie International Edition, 64 (27), e202506977"
+  url: ""
+  doi: ""
+  categories: ["cofs"]
+  author_role: "coauthor"
+
+- sort_key: 202511
+  year: 2025
+  title: "White Organic Light-Emitting Diodes with Extremely Low Turn-on Voltage at 1.5 V"
+  authors_html: "Yiyan Yuan, <strong>SHUI QING-JUN</strong>, Hiroto Iwasaki, Daiki Nakahigashi, Yutaka Majima, Ken-ichi Nakayama, and co-workers"
+  venue: "Journal of Materials Chemistry C, 13 (33), 16963-16968"
+  url: ""
+  doi: ""
+  categories: ["blue-uc-oleds"]
+  author_role: "coauthor"
+
+- sort_key: 202510
+  year: 2025
+  title: "Reaction Mechanism with Indano[60]fullerene Bromide for Evaporable Fullerene Derivatives"
+  authors_html: "H. Amada, Yong-Chang Zhai, K. Yamanaka, <strong>SHUI QING-JUN</strong>, K. Oyama, K. Miwa, Hao-Sheng Lin, and co-workers"
+  venue: "Chemical Communications, 61 (8), 1665-1668"
+  url: ""
+  doi: ""
+  categories: ["evaporable-fullerenes"]
+  author_role: "coauthor"
+
+- sort_key: 202409
+  year: 2024
+  title: "Electron Transfer Enhanced by a Minimal Energetic Driving Force at the Organic-Semiconductor Interface"
+  authors_html: "Hiroto Iwasaki, K. Fujimoto, K. Banno, <strong>SHUI QING-JUN</strong>, Yutaka Majima, M. Takahashi, and Seiichiro Izawa"
+  venue: "Angewandte Chemie International Edition, 63 (37), e202407368"
+  url: ""
+  doi: ""
+  categories: ["blue-uc-oleds"]
+  author_role: "coauthor"
+
+- sort_key: 202306
+  year: 2023
+  title: "Evaporable Fullerene Indanones with Controlled Amorphous Morphology as Electron Transport Layers for Inverted Perovskite Solar Cells"
+  authors_html: "<strong>SHUI QING-JUN</strong>, Shiqi Shan, Yong-Chang Zhai, Shinobu Aoyagi, Seiichiro Izawa, Miftakhul Huda, Chu-Yang Yu, Lijian Zuo, Hongzheng Chen, Hao-Sheng Lin, and Yutaka Matsuo"
+  venue: "Journal of the American Chemical Society, 145 (50), 27307-27315"
+  url: "https://doi.org/10.1021/jacs.3c07192"
+  doi: "10.1021/jacs.3c07192"
+  categories: ["evaporable-fullerenes"]
+  author_role: "first"
+  cv_selected: true
+
+- sort_key: 202305
+  year: 2023
+  title: "Evaporable Indano[60]fullerene Ketone for the Electron Transport Layer of Inverted Perovskite Solar Cells"
+  authors_html: "Yutaka Matsuo, S. Ishikawa, H. Amada, K. Yokoyama, <strong>SHUI QING-JUN</strong>, M. Huda, N. Ueoka, and co-workers"
+  venue: "Chemistry Letters, 52 (8), 685-687"
+  url: ""
+  doi: ""
+  categories: ["evaporable-fullerenes"]
+  author_role: "coauthor"
+
+- sort_key: 202304
+  year: 2023
+  title: "Cationic Nitrogen-Doped Graphene Coated Silver as Low-Work Function Electrode for Inverted Perovskite Solar Cells"
+  authors_html: "K. Yokoyama, Hao-Sheng Lin, <strong>SHUI QING-JUN</strong>, X. Wang, N. Saito, and Yutaka Matsuo"
+  venue: "Applied Physics Express, 16 (8), 081001"
+  url: ""
+  doi: ""
+  categories: ["evaporable-fullerenes"]
+  author_role: "coauthor"
+
+- sort_key: 202303
+  year: 2023
+  title: "Spiro-OMeTAD versus PTAA for Single-Walled Carbon Nanotubes Electrode in Perovskite Solar Cells"
+  authors_html: "B.-W. Zhang, Hao-Sheng Lin, X.-Y. Qiu, <strong>SHUI QING-JUN</strong>, Y.-J. Zheng, M. Almesfer, E. I. Kauppinen, and co-workers"
+  venue: "Carbon, 205, 321-327"
+  url: ""
+  doi: ""
+  categories: ["evaporable-fullerenes"]
+  author_role: "coauthor"
+
+- sort_key: 202002
+  year: 2020
+  title: "Semiconductive Covalent Organic Frameworks: Structural Design, Synthesis, and Application"
+  authors_html: "S. Wang, X. Xu, Y. Yue, K. Yu, <strong>SHUI QING-JUN</strong>, N. Huang, and H. Chen"
+  venue: "Small Structures, 1 (2), 2000021"
+  url: ""
+  doi: ""
+  categories: ["cofs"]
+  author_role: "coauthor"
+
+- sort_key: 201901
+  year: 2019
+  title: "Cyclic Response of RC Composite Bridge Columns with Precast PP-ECC Jackets in the Region of Plastic Hinges"
+  authors_html: "R. Zhang, Q. Meng, <strong>SHUI QING-JUN</strong>, W. He, K. Chen, M. Liang, and Z. Sun"
+  venue: "Composite Structures, 221, 110844"
+  url: ""
+  doi: ""
+  categories: []
+  author_role: "coauthor"

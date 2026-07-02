@@ -1,0 +1,14 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ '/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/research/' | absolute_url }}</loc></url>
+  {% for r in site.data.research %}
+  <url><loc>{{ '/research/' | append: r.slug | append: '/' | absolute_url }}</loc></url>
+  {% endfor %}
+  <url><loc>{{ '/publications/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/cv/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/contact/' | absolute_url }}</loc></url>
+</urlset>

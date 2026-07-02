@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Publications"
+description: "Publications by SHUI QING-JUN."
+---
+{% assign profile = site.data.profile %}
+{% assign pubs = site.data.publications | sort: 'sort_key' | reverse %}
+
+<section class="page-hero">
+  <div class="container content-narrow">
+    <p class="eyebrow">Publications</p>
+    <h1>Publications</h1>
+    <p class="lead">A curated text-only list of published articles. For the full and newest record, please see my <a class="external-link" href="{{ profile.links[0].url }}" target="_blank" rel="noopener">Google Scholar profile</a>.</p>
+  </div>
+</section>
+
+<section class="section alt-section">
+  <div class="container publication-list">
+    <div class="section-heading compact-heading publication-section-heading">
+      <p class="eyebrow">Primary publications</p>
+      <h2>First-author / corresponding-author papers</h2>
+    </div>
+    {% for pub in pubs %}
+      {% if pub.author_role == 'first' or pub.author_role == 'corresponding' or pub.author_role == 'first_corresponding' %}
+        {% include publication-card.html pub=pub %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="section-heading compact-heading publication-section-heading other-publications-heading">
+      <p class="eyebrow">Other publications</p>
+      <h2>Co-authored papers</h2>
+    </div>
+    {% for pub in pubs %}
+      {% unless pub.author_role == 'first' or pub.author_role == 'corresponding' or pub.author_role == 'first_corresponding' %}
+        {% include publication-card.html pub=pub %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,96 @@
+---
+layout: default
+title: "Home"
+description: "Academic homepage of SHUI QING-JUN: near-infrared OLEDs, multifunctional organic diodes, blue UC-OLEDs, evaporable fullerenes, and COFs."
+---
+{% assign profile = site.data.profile %}
+
+<section class="hero">
+  <div class="container two-column">
+    <div>
+      <p class="eyebrow hero-eyebrow">Academic homepage</p>
+      <h1 class="hero-name"><span class="hero-name-main">{{ profile.name }}</span> <span class="hero-name-chinese">({{ profile.chinese_name }})</span></h1>
+      <p class="lead">{{ profile.intro }}</p>
+      <p class="lead collaborator-line">{{ profile.collaboration.text_before }} <a class="external-link" href="{{ profile.collaboration.url }}" target="_blank" rel="noopener">{{ profile.collaboration.name }}</a>.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ '/research/' | relative_url }}">Explore research</a>
+        <a class="button" href="{{ '/publications/' | relative_url }}">View publications</a>
+        <a class="button" href="{{ '/cv/' | relative_url }}">CV</a>
+      </div>
+    </div>
+    <aside class="hero-card profile-card">
+      <img src="{{ profile.profile_image | relative_url }}" alt="Portrait of {{ profile.name }}">
+      <div class="profile-meta">
+        <strong>{{ profile.role }}</strong>
+        <p>{{ profile.affiliation }}</p>
+        <p>{{ profile.location }}</p>
+        <div class="social-pills">
+          {% for link in profile.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section alt-section">
+  <div class="container">
+    <div class="section-heading compact-heading">
+      <p class="eyebrow">Academic path</p>
+      <h2>Research experience across stages</h2>
+      <p>A concise timeline from education to current organic optoelectronic research.</p>
+    </div>
+    <div class="journey-grid">
+      {% for item in site.data.cv.journey %}
+      <article class="journey-card">
+        <div class="journey-topline">
+          <span class="period">{{ item.period }}</span>
+          <span class="stage-pill">{{ item.stage }}</span>
+        </div>
+        <h3>{{ item.institution }}</h3>
+        <p class="journey-focus">{{ item.focus }}</p>
+        {% if item.collaborators and item.collaborators != "" %}<p class="cv-mentor-line"><span>Supervisor / collaborators</span>{{ item.collaborators }}</p>{% endif %}
+        {% if item.details and item.details != "" %}<p>{{ item.details }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading compact-heading">
+      <p class="eyebrow">Research map</p>
+      <h2>Research categories</h2>
+    </div>
+    <div class="research-grid homepage-research-grid">
+      {% for r in site.data.research %}
+      <a class="research-card {% if forloop.first %}featured{% endif %}" href="{{ '/research/' | append: r.slug | append: '/' | relative_url }}">
+        {% include smart-image.html base=r.image_base alt=r.title loading="lazy" %}
+        <div class="research-card-body">
+          <span class="stage">{{ r.stage }}</span>
+          <h3>{{ r.title }}</h3>
+          <p>{{ r.subtitle }}</p>
+          <span class="card-arrow">Open project →</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt-section">
+  <div class="container">
+    <div class="section-heading compact-heading">
+      <p class="eyebrow">Quick access</p>
+      <h2>Academic profile</h2>
+    </div>
+    <div class="quick-grid">
+      <a class="quick-card" href="{{ '/publications/' | relative_url }}"><strong>Publications</strong><p>Text-only curated list of published outputs, with a direct Google Scholar link for the full record.</p></a>
+      <a class="quick-card" href="{{ '/cv/' | relative_url }}"><strong>CV</strong><p>Education, research experience, skills, awards, and talks.</p></a>
+      <a class="quick-card" href="{{ '/contact/' | relative_url }}"><strong>Contact</strong><p>Email, GitHub, Google Scholar, ORCID, and academic links.</p></a>
+      <a class="quick-card" href="{{ '/research/' | relative_url }}"><strong>Research overview</strong><p>A structured map of my five research categories.</p></a>
+    </div>
+  </div>
+</section>

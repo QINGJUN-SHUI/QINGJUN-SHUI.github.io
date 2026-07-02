@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign profile = site.data.profile %}
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ profile.name | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ profile.name_formal | default: profile.name }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ profile.name }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ profile.profile_image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ profile.name_formal }}",
+    "alternateName": "{{ profile.name }}",
+    "email": "{{ profile.email }}",
+    "affiliation": {"@type": "Organization", "name": "{{ profile.affiliation }}"},
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "sameAs": [{% for link in profile.links %}"{{ link.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Home">
+        <span class="brand-mark">QS</span>
+        <span class="brand-text">{{ profile.name }}</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research/' %}class="active"{% endif %}>Research</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications/' %}class="active"{% endif %}>Publications</a>
+        <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv/' %}class="active"{% endif %}>CV</a>
+        <a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact/' %}class="active"{% endif %}>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>{{ profile.name_formal }}</strong>
+        <p>{{ profile.tagline }}</p>
+      </div>
+      <div class="footer-links">
+        {% for link in profile.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </footer>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

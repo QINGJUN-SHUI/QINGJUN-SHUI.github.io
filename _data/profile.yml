@@ -1,0 +1,36 @@
+name: "SHUI QING-JUN"
+name_formal: "SHUI QING-JUN"
+chinese_name: "水 清军"
+name_with_chinese: "SHUI QING-JUN (水 清军)"
+tagline: "Organic optoelectronics, photovoltaic physics, electroluminescence, charge-transfer states, and triplet management"
+role: "Postdoctoral Researcher"
+affiliation: "Department of Physics, Chemistry and Biology (IFM), Linköping University"
+location: "Linköping, Sweden"
+email: "qingjun_shui@zju.edu.cn"
+profile_image: "/assets/images/profile/shui-qingjun.jpg"
+intro: >-
+  I design organic functional materials and devices that connect photovoltaic physics,
+  electroluminescence, charge-transfer states, and triplet management.
+collaboration:
+  text_before: "I am currently working in collaboration with"
+  name: "Prof. Feng Gao"
+  url: "https://liu.se/en/employee/fenga88"
+
+keywords:
+  - Organic optoelectronics
+  - Near-infrared OLEDs
+  - Multifunctional organic diodes
+  - Blue UC-OLEDs
+  - TTA upconversion
+  - Evaporable fullerenes
+  - Covalent organic frameworks
+
+links:
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=k1Q_TVIAAAAJ&hl=zh-CN"
+  - label: "ORCID"
+    url: "https://orcid.org/0000-0003-4227-2701"
+  - label: "GitHub"
+    url: "https://github.com/QINGJUN-SHUI"
+  - label: "Email"
+    url: "mailto:qingjun_shui@zju.edu.cn"

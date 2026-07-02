@@ -1,0 +1,26 @@
+{%- comment -%}
+Smart image loader for research images.
+Usage: {% include smart-image.html base="/assets/images/research/01-nir-oled" alt="..." loading="lazy" %}
+It searches common extensions at build time. Keep only one image with the same base name.
+{%- endcomment -%}
+{%- assign preferred_exts = '.png,.jpg,.jpeg,.webp,.avif,.gif,.svg' | split: ',' -%}
+{%- assign found_path = '' -%}
+{%- for ext in preferred_exts -%}
+  {%- assign candidate = include.base | append: ext -%}
+  {%- for file in site.static_files -%}
+    {%- if file.path == candidate -%}
+      {%- assign found_path = file.path -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if found_path != '' -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if found_path == '' and include.fallback -%}
+  {%- assign found_path = include.fallback -%}
+{%- endif -%}
+{%- if found_path == '' -%}
+  {%- assign found_path = include.base | append: '.jpg' -%}
+{%- endif -%}
+<img src="{{ found_path | relative_url }}" alt="{{ include.alt | escape }}"{% if include.loading %} loading="{{ include.loading }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.sizes %} sizes="{{ include.sizes }}"{% endif %}>

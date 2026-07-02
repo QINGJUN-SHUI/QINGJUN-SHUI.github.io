@@ -1,0 +1,32 @@
+---
+layout: default
+title: "Contact"
+description: "Contact information and academic links for SHUI QING-JUN."
+---
+{% assign profile = site.data.profile %}
+<section class="page-hero">
+  <div class="container content-narrow">
+    <p class="eyebrow">Contact</p>
+    <h1>Contact and academic links</h1>
+    <p class="lead">Email and academic profiles for collaboration, research discussion, and professional contact.</p>
+  </div>
+</section>
+<section class="section alt-section">
+  <div class="container two-column">
+    <div class="contact-card">
+      <h2>{{ profile.name_with_chinese }}</h2>
+      <p>{{ profile.role }}</p>
+      <p>{{ profile.affiliation }}</p>
+      <p>{{ profile.location }}</p>
+      <p><strong>Email:</strong> <a href="mailto:{{ profile.email }}">{{ profile.email }}</a></p>
+    </div>
+    <div class="contact-card">
+      <h2>Profiles</h2>
+      <div class="social-pills">
+        {% for link in profile.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

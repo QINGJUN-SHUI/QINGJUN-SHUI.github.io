@@ -1,0 +1,27 @@
+<article class="publication-card text-only-publication publication-row {% if include.pub.author_role == 'first' or include.pub.author_role == 'corresponding' or include.pub.author_role == 'first_corresponding' %}primary-publication{% else %}other-publication{% endif %}">
+  <div class="pub-main">
+    <div class="pub-title-row">
+      <h3>
+        {% if include.pub.url and include.pub.url != '' %}
+        <a class="publication-title-link" href="{{ include.pub.url }}" target="_blank" rel="noopener">{{ include.pub.title }}</a>
+        {% else %}
+        {{ include.pub.title }}
+        {% endif %}
+      </h3>
+      <span class="pub-year">{{ include.pub.year }}</span>
+    </div>
+    {% if include.pub.author_role == 'first' %}
+      <span class="pub-role-badge">First-author publication</span>
+    {% elsif include.pub.author_role == 'corresponding' %}
+      <span class="pub-role-badge">Corresponding-author publication</span>
+    {% elsif include.pub.author_role == 'first_corresponding' %}
+      <span class="pub-role-badge">First-author / corresponding-author publication</span>
+    {% endif %}
+    <p class="authors">{{ include.pub.authors_html }}</p>
+    <p class="venue">{{ include.pub.venue }}</p>
+    <div class="pub-links">
+      {% if include.pub.doi and include.pub.doi != '' %}<a href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if include.pub.url and include.pub.url != '' %}<a href="{{ include.pub.url }}" target="_blank" rel="noopener">Open publication</a>{% endif %}
+    </div>
+  </div>
+</article>

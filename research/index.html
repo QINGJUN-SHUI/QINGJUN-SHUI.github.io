@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Research"
+description: "Research categories of SHUI QING-JUN."
+---
+<section class="page-hero">
+  <div class="container content-narrow">
+    <p class="eyebrow">Research</p>
+    <h1>Research overview</h1>
+    <p class="lead">A modular map of my research, ordered from current work on near-infrared OLEDs and multifunctional organic diodes to blue UC-OLEDs, evaporable fullerenes, and COFs.</p>
+  </div>
+</section>
+<section class="section alt-section">
+  <div class="container">
+    <div class="research-grid">
+      {% for r in site.data.research %}
+      <a class="research-card {% if forloop.first %}featured{% endif %}" href="{{ '/research/' | append: r.slug | append: '/' | relative_url }}">
+        {% include smart-image.html base=r.image_base alt=r.title loading="lazy" %}
+        <div class="research-card-body">
+          <span class="stage">{{ r.stage }}</span>
+          <h3>{{ r.title }}</h3>
+          <p>{{ r.summary }}</p>
+          <span class="card-arrow">Read details →</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

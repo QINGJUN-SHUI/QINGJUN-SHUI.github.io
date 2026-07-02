@@ -1,0 +1,16 @@
+title: "SHUI QING-JUN"
+description: "SHUI QING-JUN academic homepage: near-infrared OLEDs, multifunctional organic diodes, blue UC-OLEDs, evaporable fullerenes, and covalent organic frameworks."
+url: "https://qingjun-shui.github.io"
+baseurl: ""
+lang: "en"
+timezone: "Asia/Shanghai"
+markdown: kramdown
+permalink: pretty
+
+# GitHub Pages supported options only. No custom plugins are required.
+exclude:
+  - README_EDITING.md
+  - DOMAIN_AND_GOOGLE_INDEXING.md
+  - CNAME.example
+  - Gemfile
+  - Gemfile.lock

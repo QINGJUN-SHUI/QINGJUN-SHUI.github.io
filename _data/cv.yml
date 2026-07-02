@@ -1,0 +1,157 @@
+journey:
+- stage: High school
+  period: Before 2016
+  institution: Gansu Dingxi No.1 Middle School
+  focus: Secondary education before university
+  details: ''
+- stage: Undergraduate research
+  period: 2016.9-2020.7
+  institution: Zhejiang University, Department of Polymer Science and Engineering
+  focus: COFs, porphyrin synthesis, and photoelectric functional molecules
+  details: ''
+  collaborators: Prof. Ning Huang and Prof. Hongzheng Chen
+- stage: Research assistant
+  period: 2020-2021.2
+  institution: Zhejiang University, Department of Polymer Science and Engineering
+  focus: COFs, porphyrin chemistry, and organic functional materials
+  details: ''
+  collaborators: Prof. Ning Huang and Prof. Hongzheng Chen
+- stage: Master's research
+  period: 2021.4-2023.3
+  institution: Nagoya University
+  focus: Evaporable fullerene semiconductors and perovskite solar cells
+  details: ''
+  collaborators: Prof. Hao-Sheng Lin and Prof. Yutaka Matsuo
+- stage: Doctoral research
+  period: 2023.4-2026.3
+  institution: Institute of Science Tokyo / Tokyo Institute of Technology
+  focus: UC-OLEDs, CT states, triplet management, and multifunctional organic diodes
+  details: ''
+  collaborators: Prof. Seiichiro Izawa
+- stage: Visiting research
+  period: 2025.8-2025.10
+  institution: Osaka University
+  focus: Novel heptazine derivatives
+  details: ''
+  collaborators: Prof. Naoya Aizawa
+- stage: Current position
+  period: 2026-present
+  institution: Linköping University, Department of Physics, Chemistry and Biology (IFM)
+  focus: Organic optoelectronics and advanced organic functional devices
+  details: ''
+  collaborators: Prof. Feng Gao
+education:
+- degree: Ph.D. in Materials Science and Engineering
+  institution: Institute of Science Tokyo, Tokyo, Japan
+  period: 2023.4-2026.3
+  details: Research on charge-transfer states, interfacial energy transfer, non-radiative recombination, UC-OLEDs, and multifunctional organic devices.
+- degree: M.S. in Mechanical System Engineering
+  institution: Nagoya University, Nagoya, Japan
+  period: 2021.4-2023.3
+  details: Research on evaporable fullerene indanones and electron-transport layers for inverted perovskite solar cells.
+- degree: B.S. in Macromolecular Materials and Engineering
+  institution: Zhejiang University, Hangzhou, China
+  period: 2016.9-2020.7
+  details: Research on porphyrin-based covalent organic frameworks and photoelectric functional molecules.
+- degree: High school
+  institution: Gansu Dingxi No.1 Middle School
+  period: Before 2016
+  details: Secondary education before university.
+research_experience:
+- title: Postdoctoral Researcher
+  institution: Linköping University, Department of Physics, Chemistry and Biology (IFM)
+  period: 2026-present
+  summary: Organic optoelectronic materials and advanced organic functional devices.
+  bullets:
+  - Research interests include photovoltaic physics, electroluminescence, charge-transfer states, and triplet management.
+  collaborators: Prof. Feng Gao
+- title: Visiting Student
+  institution: Osaka University, Osaka, Japan
+  period: 2025.8-2025.10
+  summary: Development of novel heptazine derivatives.
+  bullets:
+  - Heptazine derivatives have inverted singlet-triplet excited states and offer exciting prospects in photophysics and related organic semiconductors.
+  collaborators: Prof. Naoya Aizawa
+- title: Ph.D. Student
+  institution: Institute of Science Tokyo / Tokyo Institute of Technology
+  period: 2023.4-2026.3
+  summary: UC-OLEDs, charge-transfer states, triplet management, and multifunctional organic diodes.
+  bullets:
+  - 'Multifunctional organic semiconductor devices: developed devices with suppressed non-radiative recombination losses, now published in Advanced Materials.'
+  - 'Upconversion blue OLEDs: elucidated dopant-induced trap formation in UC-OLEDs and demonstrated narrow-band deep-blue emission at 1.5 V.'
+  - High-efficiency UC-OLEDs through interfacial energy-transfer control.
+  - 'Highly electroluminescent non-fullerene acceptor films: pushing the open-circuit voltage toward the Shockley-Queisser limit.'
+  collaborators: Prof. Seiichiro Izawa
+- title: Master Student
+  institution: Nagoya University, Nagoya, Japan
+  period: 2021.4-2023.3
+  summary: Evaporable fullerene semiconductors and perovskite solar cells.
+  bullets:
+  - A new class of fullerene derivatives stable enough for thermal evaporation was developed.
+  - tBu-FIDO effectively suppresses fullerene self-aggregation by introducing a bulky steric hindrance group.
+  collaborators: Prof. Hao-Sheng Lin and Prof. Yutaka Matsuo
+- title: Undergraduate Student / Research Assistant
+  institution: Zhejiang University, Hangzhou, China
+  period: 2019-2021.2
+  summary: COFs, porphyrin synthesis, and photoelectric functional molecules.
+  bullets:
+  - Worked on COF structural design, porphyrin synthesis, and photoelectric functional molecular materials.
+  collaborators: Prof. Ning Huang and Prof. Hongzheng Chen
+experience:
+- title: Postdoctoral Researcher
+  institution: Linköping University
+  period: 2026-present
+  details: Organic optoelectronics and advanced organic functional devices.
+  collaborators: Prof. Feng Gao
+- title: Visiting Student
+  institution: Osaka University
+  period: 2025.8-2025.10
+  details: Novel heptazine derivatives.
+  collaborators: Prof. Naoya Aizawa
+- title: Ph.D. Student
+  institution: Institute of Science Tokyo / Tokyo Institute of Technology
+  period: 2023.4-2026.3
+  details: UC-OLEDs, CT-state engineering, triplet management, and multifunctional organic devices.
+  collaborators: Prof. Seiichiro Izawa
+- title: Master Student
+  institution: Nagoya University
+  period: 2021.4-2023.3
+  details: Evaporable fullerene semiconductors and perovskite solar cells.
+  collaborators: Prof. Hao-Sheng Lin and Prof. Yutaka Matsuo
+- title: Undergraduate Student / Research Assistant
+  institution: Zhejiang University
+  period: 2019-2021.2
+  details: COFs, porphyrin synthesis, and photoelectric functional molecules.
+  collaborators: Prof. Ning Huang and Prof. Hongzheng Chen
+skills:
+- Organic synthesis and related characterization techniques
+- OLED device fabrication and related characterization technology
+- Gaussian 16 calculation and excited-state analysis
+- Organic photovoltaic and multifunctional diode characterization
+- Photophysical spectroscopy and TTA/upconversion analysis
+- Charge-transfer-state analysis and non-radiative recombination analysis
+awards:
+- Monbukagakusho Honors Scholarship for Privately-Financed International Students, 2022-2023
+- Tokyo Tech Tsubame Scholarship, 2023-2024
+- Tokyo Tech Tsubame Special Scholarship, 2024-2025
+- Tokyo Tech IIR Research Fellow, 2023-2026
+- Science Tokyo SPRING Program for Development of Next-Generation Front-Runners with Comprehensive Knowledge and Humanity, 2025-2026
+talks:
+- title: Narrow-Band Blue Emission in Organic Light-Emitting Diode at Extremely Low Driving Voltage
+  event: The Fourteenth International Conference on the Science and Technology for Advanced Ceramics (STAC-14)
+  location: Suzukake Hall, Suzukake-dai Campus, Institute of Science Tokyo, Japan
+  date: October 8-10, 2024
+  type: Oral presentation
+  year: '2024'
+- title: Narrow-Band Deep Blue Emission in Organic Light-Emitting Diode at Ultra-Low Driving Voltage
+  event: The 16th Asian Conference on Organic Electronics (A-COE 2024)
+  location: I-site Namba, Osaka, Japan
+  date: November 19-22, 2024
+  type: Poster presentation
+  year: '2024'
+- title: 'Toward Multifunctional Organic Diodes: Overcoming Non-Radiative Recombination'
+  event: The 3rd World Materials Conference / 9th World Materials Summit & International Union of Materials Research Societies International Conference in Asia (IUMRS-ICA 2025)
+  location: Guilin, China
+  date: October 14-17, 2025
+  type: Oral presentation
+  year: '2025'

@@ -1,0 +1,99 @@
+# Edit this file to change the research boxes on the homepage and research pages.
+# The order here is the order shown on the homepage: newest/current research first.
+# Image rule: use image_base WITHOUT file extension. The website will try common formats
+# automatically: .png, .jpg, .jpeg, .webp, .avif, .gif, .svg.
+# Example: image_base: "/assets/images/research/01-nir-oled"
+# Then you can use 01-nir-oled.png OR 01-nir-oled.jpg in assets/images/research/.
+# Keep only one file with the same base name to avoid ambiguity.
+
+- slug: "near-infrared-oleds"
+  stage: "Current research"
+  title: "New Near-Infrared OLEDs"
+  short_title: "NIR OLEDs"
+  subtitle: "Turning radiative-limit organic solar cells into efficient near-infrared emitters"
+  image_base: "/assets/images/research/01-nir-oled"
+  tags: ["NIR OLED", "Organic solar cells", "Non-radiative recombination", "S-Q limit"]
+  summary: >-
+    I developed a new concept for near-infrared organic light-emitting diodes. Unlike
+    conventional OLEDs, this approach starts from organic solar-cell physics: when
+    non-radiative recombination is strongly suppressed and the open-circuit voltage
+    approaches the Shockley-Queisser limit, the organic solar cell can become an
+    excellent NIR OLED. The full manuscript is to be submitted. Please stay tuned.
+  highlights:
+    - "A new NIR OLED concept built from organic solar-cell design principles."
+    - "Suppressing non-radiative recombination is used as the central route to efficient NIR emission."
+    - "The photovoltaic voltage-loss framework is connected directly to electroluminescent device performance."
+    - "Manuscript to be submitted. Please stay tuned."
+
+- slug: "multifunctional-organic-diodes"
+  stage: "Current and future direction"
+  title: "Multifunctional Organic Diodes"
+  short_title: "Multifunctional diodes"
+  subtitle: "Organic diodes that combine photovoltaic, electroluminescent, photodetection, and charge-transfer functions"
+  image_base: "/assets/images/research/02-multifunctional-diodes"
+  tags: ["Organic diodes", "Photovoltaics", "Electroluminescence", "Charge-transfer states"]
+  summary: >-
+    This direction explores organic devices that are not limited to a single function.
+    By controlling molecular energy levels, interfaces, and excited-state pathways,
+    one organic diode can connect charge generation, charge injection, light emission,
+    photodetection, and interfacial charge-transfer physics.
+  highlights:
+    - "Organic diode platforms that bridge solar-cell and OLED operation."
+    - "Interface and charge-transfer-state engineering for multifunctional behavior."
+    - "Suppression of non-radiative recombination as a design principle for efficient multifunctional devices."
+    - "A framework for connecting device physics with molecular design."
+
+- slug: "blue-uc-oleds"
+  stage: "Doctoral research"
+  title: "Upconversion Blue OLEDs"
+  short_title: "Blue UC-OLEDs"
+  subtitle: "Low-voltage blue electroluminescence via triplet-triplet annihilation upconversion"
+  image_base: "/assets/images/research/03-blue-uc-oled"
+  tags: ["UC-OLED", "TTA", "Blue OLED", "Triplet management"]
+  summary: >-
+    During my doctoral research, I developed blue organic light-emitting diodes that
+    generate high-energy blue electroluminescence from lower-energy charge-transfer
+    states. This category includes low-voltage UC-OLED device design, heptazine
+    acceptors, sterically shielded deep-blue dopants, triplet management, and TTA
+    kinetics.
+  highlights:
+    - "Low-voltage blue electroluminescence enabled by electrically driven upconversion."
+    - "Heptazine acceptors for charge-transfer-state and triplet-energy control."
+    - "Sterically shielded dopants for narrowband deep-blue emission."
+    - "Triplet diffusion, interfacial quenching, and TTA kinetics as key device factors."
+
+- slug: "evaporable-fullerenes"
+  stage: "Master's research"
+  title: "Evaporable Fullerenes"
+  short_title: "Fullerenes"
+  subtitle: "Vacuum-depositable fullerene semiconductors for perovskite solar cells"
+  image_base: "/assets/images/research/04-evaporable-fullerenes"
+  tags: ["Fullerene", "Vacuum deposition", "Electron transport", "Perovskite solar cells"]
+  summary: >-
+    My master's research focused on evaporable fullerene derivatives with controlled
+    amorphous morphology. These molecular semiconductors were designed as
+    vacuum-processable electron transport layers for inverted perovskite solar cells
+    and related optoelectronic devices.
+  highlights:
+    - "Molecular design of fullerene indanones with improved film morphology."
+    - "Vacuum-processable electron transport layers for inverted perovskite solar cells."
+    - "Morphology control from crystalline to amorphous films by molecular design."
+    - "Published as a main-author work in Journal of the American Chemical Society."
+
+- slug: "cofs"
+  stage: "Undergraduate research"
+  title: "Covalent Organic Frameworks"
+  short_title: "COFs"
+  subtitle: "Porphyrin-based frameworks and functional porous materials"
+  image_base: "/assets/images/research/05-cofs"
+  tags: ["COF", "Porphyrin", "Porous materials", "Functional materials"]
+  summary: >-
+    My early research training began with organic synthesis and framework chemistry,
+    including covalent organic frameworks and porphyrin-based functional porous
+    materials. This experience built the foundation for my later work on molecular
+    semiconductors and organic optoelectronic devices.
+  highlights:
+    - "Organic synthesis and structural design of functional building blocks."
+    - "Porous semiconductive frameworks and optoelectronic concepts."
+    - "Porphyrin synthesis and photoelectric functional molecules."
+    - "Foundation for later molecular semiconductor and device research."

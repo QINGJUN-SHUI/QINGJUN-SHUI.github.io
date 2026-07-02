@@ -1,0 +1,81 @@
+---
+layout: default
+---
+{% assign item = site.data.research | where: "slug", page.research_slug | first %}
+{% assign related_pubs = site.data.publications | where_exp: "pub", "pub.categories contains page.research_slug" %}
+{% assign first_author_pubs = related_pubs | where: "author_role", "first" | sort: "sort_key" | reverse %}
+{% assign other_pubs = related_pubs | where_exp: "pub", "pub.author_role != 'first'" | sort: "sort_key" | reverse %}
+
+<section class="page-hero research-hero">
+  <div class="container two-column hero-content">
+    <div>
+      <p class="eyebrow">{{ item.stage }}</p>
+      <h1>{{ item.title }}</h1>
+      <p class="lead">{{ item.subtitle }}</p>
+      <div class="tag-row">
+        {% for tag in item.tags %}<span>{{ tag }}</span>{% endfor %}
+      </div>
+    </div>
+    <div class="hero-card image-card">
+      {% include smart-image.html base=item.image_base alt=item.title %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content-narrow">
+    <h2>Research overview</h2>
+    <p>{{ item.summary }}</p>
+    {% if item.highlights %}
+    <div class="highlight-list">
+      {% for h in item.highlights %}
+      <div class="highlight-item"><span></span><p>{{ h }}</p></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section alt-section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Related outputs</p>
+      <h2>Related publications</h2>
+      <p>Published outputs connected to this research direction. First-author publications are shown first.</p>
+    </div>
+    <div class="publication-list">
+      {% if related_pubs.size > 0 %}
+        {% for pub in first_author_pubs %}
+          {% include publication-card.html pub=pub %}
+        {% endfor %}
+        {% if other_pubs.size > 0 %}
+          <h3 class="related-subheading">Other related publications</h3>
+          {% for pub in other_pubs %}
+            {% include publication-card.html pub=pub %}
+          {% endfor %}
+        {% endif %}
+      {% else %}
+        <div class="empty-card">Related publications will be added after publication.</div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Explore more</p>
+      <h2>Other research categories</h2>
+    </div>
+    <div class="mini-card-grid">
+      {% for r in site.data.research %}
+        {% unless r.slug == page.research_slug %}
+        <a class="mini-card" href="{{ '/research/' | append: r.slug | append: '/' | relative_url }}">
+          <span>{{ r.stage }}</span>
+          <strong>{{ r.short_title }}</strong>
+        </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
