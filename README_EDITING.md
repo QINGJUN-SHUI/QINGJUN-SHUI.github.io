@@ -87,4 +87,3 @@ Each item has these important fields:
 
 Use `sort_key` to control order. Larger numbers appear first. The website does not show citation counts; use the Google Scholar link for citation and profile updates.
 
-Deployment retry after GitHub Pages incident.
